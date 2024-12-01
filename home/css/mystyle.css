@@ -21,3 +21,7 @@ img {
 tr:nth-child(even) {
   background-color: white;
 }
+
+th, td {
+  padding: 15px;
+}
