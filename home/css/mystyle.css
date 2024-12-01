@@ -7,7 +7,7 @@ h1 {
   text-align: center;
 }
 
-p {
+p, h1, td, th, li {
   font-family: courier;
   font-size: 20px;
 }
