@@ -1,5 +1,5 @@
 body {
-  background-color: lightblue;
+  background-color: white;
 }
 
 h1 {
@@ -19,7 +19,7 @@ img {
 }
 
 tr:nth-child(even) {
-  background-color: white;
+  background-color: lightblue;
 }
 
 th, td {
