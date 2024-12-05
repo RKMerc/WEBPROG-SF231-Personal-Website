@@ -4,13 +4,14 @@
 .item4 { grid-area: right; }
 .item5 { grid-area: footer; }
 .item6 { grid-area: footer2; }
+.item7 { grid-area: footer3; }
 
 .grid-container {
   display: grid;
   grid-template-areas:
     'header header header header header header'
-    'menu main main main right right'
-    'menu footer footer footer2 footer2 footer2';
+    'menu menu main main right right'
+    'footer footer footer footer2 footer3 footer3';
   gap: 10px;
   background-color: #2196F3;
   padding: 10px;
