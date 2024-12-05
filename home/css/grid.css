@@ -3,13 +3,14 @@
 .item3 { grid-area: main; }
 .item4 { grid-area: right; }
 .item5 { grid-area: footer; }
+.item6 { grid-area: footer2; }
 
 .grid-container {
   display: grid;
   grid-template-areas:
     'header header header header header header'
     'menu main main main right right'
-    'menu footer footer footer footer footer';
+    'menu footer footer footer2 footer2 footer2';
   gap: 10px;
   background-color: #2196F3;
   padding: 10px;
