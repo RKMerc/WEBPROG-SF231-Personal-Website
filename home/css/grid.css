@@ -8,6 +8,7 @@
 
 .grid-container {
   display: grid;
+  grid-template-columns: 80px 200px auto 30px;
   grid-template-areas:
     'header header header header header header'
     'menu menu menu main main main'
