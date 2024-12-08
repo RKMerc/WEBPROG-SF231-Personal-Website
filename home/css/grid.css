@@ -21,8 +21,8 @@
 .grid-container > div {
   background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
-  padding: 20px;
-  font-size: 30px;
+  padding: 20px 0;
+  font-size: 20px;
 }
 
 .grid-container > br {
