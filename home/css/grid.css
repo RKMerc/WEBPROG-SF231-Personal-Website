@@ -11,7 +11,7 @@
   grid-template-areas:
     'header header header header header header'
     'menu menu menu main main main'
-    'right right right footer footer footer',
+    'right right right footer footer footer'
     'footer2 footer2 footer2 footer3 footer3 footer3';
   gap: 10px;
   background-color: #2196F3;
