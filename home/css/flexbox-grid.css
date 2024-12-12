@@ -30,7 +30,7 @@ article {
   }
 }
 
-.article {
+.flex-container {
   display: flex;
   flex-flow: column;
   border:  1px solid black;
@@ -38,7 +38,7 @@ article {
   padding: 2rem;
 }
 
-.article > p {
+.flex-container > p {
   margin: 0.25em 1rem 1rem;
 }
 
