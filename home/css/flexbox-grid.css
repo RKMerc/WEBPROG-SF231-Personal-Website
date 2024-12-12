@@ -1,13 +1,46 @@
-.flex-container {
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 1rem;
+}
+
+main {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+article {
+  margin: 1rem 0;
+}
+
+@supports (display: grid) {
+  main { 
+    max-width: 10000px;
+    margin: 0;
+  }
+  article {
+    margin: 0;
+  }
+  .flex-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+  }
+}
+
+.grid-container {
   display: flex;
   flex-wrap: wrap;
   background-color: lightblue;
   flex-ddirection: row;
 }
 
-.grid-container > grid-item {
+.flex-container > flex-item {
   background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
 }
+
