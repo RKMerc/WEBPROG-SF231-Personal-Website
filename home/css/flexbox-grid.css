@@ -5,24 +5,7 @@
   flex-ddirection: row;
 }
 
-.flex-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  width: 50%;
-  margin: 10px;
-  text-align: justify;
-  text-justify: inter-word;
-}
-
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto auto;
-  gap: 15px;
-  background-color: #2196F3;
-  padding: 10px;
-}
-
-.grid-container > div {
+.grid-container > grid-item {
   background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
   padding: 20px 0;
