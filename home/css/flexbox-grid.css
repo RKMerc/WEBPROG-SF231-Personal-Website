@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-  text-align: center;
+  text-justify: auto;
 }
 
 main {
@@ -21,13 +21,13 @@ article {
   display: grid;
   grid-template-rows: auto 1fr auto;
   height: 100vh;
+  fill:lightsteelblue;
 }
 
 .flex-container {
   display: flex;
   flex-flow: column;
   border:  1px solid black;
-  fill: skyblue;
   border-radius: 1rem;
   padding: 2rem;
 }
