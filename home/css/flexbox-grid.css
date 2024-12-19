@@ -21,7 +21,7 @@ article {
   display: grid;
   grid-template-rows: auto 1fr auto;
   height: 100vh;
-  column-fill:lightsteelblue;
+  background-color:lightsteelblue;
 }
 
 .flex-container {
