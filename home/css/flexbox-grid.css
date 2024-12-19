@@ -27,6 +27,7 @@ article {
   display: flex;
   flex-flow: column;
   border:  1px solid black;
+  fill: skyblue;
   border-radius: 1rem;
   padding: 2rem;
 }
