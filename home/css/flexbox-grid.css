@@ -1,12 +1,10 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
   padding: 1rem;
 }
 
 main {
+  display: flex;
+  flex-direction: row;
   max-width: 500px;
   margin: 0 auto;
 }
@@ -15,7 +13,11 @@ article {
   margin: 1rem 0;
 }
 
-
+.grid-container {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100vh;
+}
 
 .flex-container {
   display: flex;
