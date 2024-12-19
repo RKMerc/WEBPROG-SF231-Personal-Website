@@ -26,7 +26,8 @@ article {
 
 .flex-container {
   display: flex;
-  flex-flow: row;
+  flex-wrap: wrap;
+  flex: 2;
   background-color:lightsteelblue;
   border-radius: 1rem;
   padding: 2rem;
