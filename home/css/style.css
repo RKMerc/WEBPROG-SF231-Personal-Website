@@ -1,7 +1,7 @@
-article > .p {
+p {
     font-family: 'Courier New', Courier, monospace;
 }
 
-article > .h2 {
+h2 {
     font-family: 'Courier New', Courier, monospace;
 }
