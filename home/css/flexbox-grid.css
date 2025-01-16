@@ -28,7 +28,7 @@ article {
   display: flex;
   flex-wrap: wrap;
   flex: 2;
-  background-color:whitesmoke);
+  background-color:whitesmoke;
   border-radius: 1rem;
   padding: 2rem;
 }
