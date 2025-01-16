@@ -23,7 +23,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   flex: 2;
-  background-color:whitesmoke;
+  background-color:rgb(171, 201, 255);
   border-radius: 1rem;
   padding: 2rem;
 }
